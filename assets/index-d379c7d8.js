@@ -111,7 +111,7 @@ Error generating stack: `+a.message+`
 	background-image: url(${e=>e.icon?e.icon:Ey});
 	background-repeat: no-repeat;
 	background-size: 100%;
-`,Ry=[{title:"Pintores",icon:vy},{title:"Plomeros",icon:my},{title:"Electricistas",icon:dy},{title:"Albañiles",icon:yy},{title:"Carpinteros",icon:fy},{title:"Fleteros",icon:py},{title:"Cerrajeros",icon:hy},{title:"Jardineros",icon:wy},{title:"Gasistas",icon:xy},{title:"Fumigadores",icon:ky},{title:"Téc. en Aire Acondicionado",icon:Sy},{title:"Téc. en Electrodomesticos",icon:gy}],Ny=()=>g.jsxs(Cy,{children:[g.jsx(Py,{children:"Todos los servicios"}),g.jsx(Ay,{children:Ry.map(e=>g.jsx(He,{to:{pathname:`/profesionalsList/${e.title}`},children:g.jsxs(Iy,{children:[g.jsx(by,{icon:e.icon})," ",e.title]})},e.title))})]}),jy=O.div`
+`,Ry=[{title:"Pintores",icon:vy},{title:"Plomeros",icon:my},{title:"Electricistas",icon:dy},{title:"Albañiles",icon:yy},{title:"Carpinteros",icon:fy},{title:"Fleteros",icon:py},{title:"Cerrajeros",icon:hy},{title:"Jardineros",icon:wy},{title:"Gasistas",icon:xy},{title:"Fumigadores",icon:ky},{title:"Téc. en Aire Acondicionado",icon:Sy},{title:"Téc. en Electrodomesticos",icon:gy}],Ny=()=>g.jsxs(Cy,{children:[g.jsx(Py,{children:g.jsx("h1",{children:"Todos los servicios"})}),g.jsx(Ay,{children:Ry.map(e=>g.jsx(He,{to:{pathname:`/profesionalsList/${e.title}`},children:g.jsxs(Iy,{children:[g.jsx(by,{icon:e.icon})," ",e.title]})},e.title))})]}),jy=O.div`
 	display: flex;
 	border: 1px solid #ccc;
 	margin: 10px auto;
