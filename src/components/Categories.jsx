@@ -120,7 +120,9 @@ const CategoriesList = [
 const Categories = () => {
 	return (
 		<CategoriesContainer>
-			<Title>Todos los servicios</Title>
+			<Title>
+				<h1>Todos los servicios</h1>
+			</Title>
 			<CategoriesListContainer>
 				{CategoriesList.map((category) => (
 					<Link
