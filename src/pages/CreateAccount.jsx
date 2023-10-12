@@ -20,7 +20,7 @@ const StyledSpan = styled.span`
 const StyledForm = styled.form`
 	display: flex;
 	flex-direction: column;
-	width: 60vh;
+	width: 90vh;
 	padding: 2rem;
 	border: 1px solid black;
 	border-radius: 10px;
@@ -28,14 +28,18 @@ const StyledForm = styled.form`
 
 const NameDiv = styled.div`
 	display: flex;
-	justify-content: space-between;
-	gap: 5%;
+	justify-content: space-around;
 `;
 const LabelDiv = styled.div`
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	padding: 0.8rem 0;
+`;
+const StyledInputName = styled.input`
+	height: 2.5rem;
+	width: 95%;
+	gap: 5%;
 `;
 
 const StyledInput = styled.input`
@@ -68,11 +72,11 @@ const CreateAccount = () => {
 				<NameDiv>
 					<LabelDiv>
 						<label htmlFor="">Nombre</label>
-						<StyledInput type="text" name="" id="" placeholder="" />
+						<StyledInputName type="text" name="" id="" placeholder="" />
 					</LabelDiv>
 					<LabelDiv>
 						<label htmlFor="">Apellido</label>
-						<StyledInput type="text" name="" id="" placeholder="" />
+						<StyledInputName type="text" name="" id="" placeholder="" />
 					</LabelDiv>
 				</NameDiv>
 				<LabelDiv>

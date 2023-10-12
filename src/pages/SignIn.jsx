@@ -21,7 +21,7 @@ const StyledSpan = styled.span`
 const StyledForm = styled.form`
 	display: flex;
 	flex-direction: column;
-	width: 60vh;
+	width: 90vh;
 	padding: 2rem;
 	border: 1px solid black;
 	border-radius: 10px;

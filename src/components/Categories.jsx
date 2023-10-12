@@ -108,11 +108,11 @@ const CategoriesList = [
 		icon: fumigation,
 	},
 	{
-		title: 'Técnicos en Aire Acondicionado',
+		title: 'Téc. en Aire Acondicionado',
 		icon: aa,
 	},
 	{
-		title: 'Técnicos en Electrodomesticos',
+		title: 'Téc. en Electrodomesticos',
 		icon: appliances,
 	},
 ];
